@@ -1,0 +1,84 @@
+/** banner */
+
+.container {
+  background-color: #4C7031;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  justify-content: left;
+  padding: 80px;
+  padding-top: 10px;
+  align-items: center;
+}
+
+.hero_title {
+  padding-top: -30px;
+  width: 661px;
+  height: 165px;
+  left: 100px;
+  top: 166px;
+  
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 55px;
+  
+  color: #FFFFFF;
+}
+
+.hero_title > h1 {
+  margin: 0;
+}
+
+.hero_subtitle {
+  padding-top: 30px;
+  padding-bottom: 80px;
+  width: 661px;
+  height: 54px;
+  left: 100px;
+  top: 355px;
+  
+  /* Text/Body */
+  
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  
+}
+.exchange_button {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.exchange_button:hover {
+  background-color: #395220;
+  color: #FFFFFF;
+}
+
+.image_hero {
+  margin-top: 130px;
+  margin-left: auto;
+  margin-right: 0;
+  display: block; /* Membuat gambar menjadi elemen blok */
+}
+
+
