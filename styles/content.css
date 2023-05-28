@@ -1,0 +1,108 @@
+.deskripsi_container {
+  background-color: #4c7031;
+  border-radius: 10px;
+  height: 300px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.nama {
+  position: relative;
+  padding: 20px;
+  border-bottom: none;
+  font-family: 'Ubuntu';
+}
+
+.nama::after {
+  content: '';
+  position: absolute;
+  bottom: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15%;
+  height: 4px;
+  background-color: #ffffff;
+}
+
+.deskripsi_paragraf {
+  font-size: 18px;
+  font-family: 'Ubuntu';
+}
+
+.layanan_title {
+  position: relative;
+  padding-top: 50px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  text-align: center;
+}
+
+.layanan_title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10%;
+  height: 4px;
+  background-color: #000000;
+}
+
+.sub_layanan {
+  display: grid;
+  align-items: center;
+  width: 100%;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+
+  height: 250px;
+  gap: 50px;
+  padding-right: 50px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.image_layanan1 {
+  width: 100%;
+}
+
+.layanan1 .image_layanan1 {
+  border-radius: 5px;
+  padding-right: 50px;
+}
+
+.layanan1 {
+  align-items: center;
+}
+
+.layanan_title1 {
+  font-size: 10px;
+  font-family: 'Ubuntu';
+  text-align: center;
+  color: #395220;
+}
+.layanan_title2 {
+  font-size: 10px;
+  font-family: 'Ubuntu';
+  text-align: center;
+  color: #395220;
+}
+.layanan_title3 {
+  font-size: 10px;
+  font-family: 'Ubuntu';
+  text-align: center;
+  color: #395220;
+}
+
+.deskripsi_layanan1 {
+  width: 326px;
+  height: 96px;
+  left: 37px;
+  top: 205px;
+  text-align: center;
+  font-family: 'Ubuntu';
+}
